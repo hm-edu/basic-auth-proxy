@@ -1,0 +1,7 @@
+listen: ":8080"
+forward_to: "http://localhost:3000"
+credentials:
+  - username: "admin"
+    password: "secret"
+  - username: "service"
+    password: "another-secret"
